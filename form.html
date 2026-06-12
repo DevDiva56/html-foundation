@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Job Application Form!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+             <!-- Top -->
+       <div>
+        <h1>Job Application Form</h1>
+       </div>
+       <div>
+        <p>Below the title, add a short sentence:</p>
+        <p>"Please fill out the form below to apply for the position."</p>
+       </div>
+
+
+            <!-- Application Form -->
+          <form>
+          <div>
+         <h2>Personal Information Section</h2> 
+           <label>Full Name : </label>
+           <input type="text" placeholder="Enter Your Full Name">
+           </div>
+           <div>
+           <label>Email Address : </label>
+           <input type="email" placeholder="Enter your email...">
+           </div>
+            <div>
+            <label>Phone Number : </label>
+            <input type="tel" placeholder="Enter your phone number">
+            </div>
+            <div>
+            <label>Date of Birth</label>
+            <input type="date" placeholder="Enter your DOB">
+            </div>
+
+            <!-- Position Details Section -->
+             <div>
+                <h2>Position Applying For</h2>
+            <label>Position Applying For</label>
+            <select name="Position Applying For: " >
+                <option disabled selected>Select a Position</option>
+                <option value="Front-End Developer">Front-End Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="UI/UX Designer">UI/UX Designer</option>
+                <option value="Product Manager">Product Manager</option>
+                <option value="IT Support Specialist">IT Support Specialist</option>  
+            </select>
+             </div>
+
+             <div>
+                <h2>Employment Type</h2>
+                <label>Employment Type : </label>
+                <input type="radio" name="employment_type" id="Full-Time">Full-Time
+                <input type="radio" name="employment_type" id="Part-Time">Part-Time
+                <input type="radio" name="employment_type" id="Internship">Internship
+                <input type="radio" name="employment_type" id="Contract"> Contract
+             </div>
+
+             <!-- Education Section -->
+              <div>
+                <h2>Education Section</h2>
+              <label>Highest Level of Education</label>
+               <select name="Highest Level of Education: " >
+                <option disabled selected>Highest Level of Education</option>
+                <option value="High School">High School</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Bachelor's Degree">Bachelor's Degree</option>
+                <option value="Master's Degree">Master's Degree</option>
+                <option value="PhD">PhD</option>
+            </select>
+             </div>
+             <!-- Institution Name -->
+             <div>
+               <label>Institution Name</label>
+               <input type="text" placeholder="Institution name ">
+             </div>
+
+             <!-- Skills Section -->
+              <div>
+                <h2>Skills Section</h2>
+                <label>Technical Skills</label>
+                <input type="checkbox" name="HTML" id="HTML">HTML
+                <input type="checkbox" name="CSS" id="CSS">CSS
+                <input type="checkbox" name="Javascript" id="Javascript">Javascript
+                <input type="checkbox" name="Python" id="Python">Python
+                <input type="checkbox" name="SQL" id="SQL">SQL
+                <input type="checkbox" name="Microsoft_Excel" id="Microsoft_Excel">Microsoft Excel
+                <input type="checkbox" name="Power BI" id="Power Bi">PowerBI
+              </div>
+
+                  <div>
+                <!-- Experience Section -->
+                    <h2>Experience Section </h2>
+                   <label>Years of Experience: </label>
+                   <input type="number">
+                  </div>
+           
+                <div>
+             <!-- Previous Employer -->
+                <label>Previous Employer</label>
+                <input type="text">
+                </div>
+                
+                <!-- Upload Documents Section -->
+                <div>
+                    <h2>Upload Documents Section</h2>
+                  <label>Upload Resume/CV</label>
+                  <input type="file" name="file upload" id="file upload">
+                </div>
+
+                <div>
+                    <label>Upload Cover Letter</label>
+                    <input type="file" name="file upload" id="file upload">
+                </div>
+
+             <!-- Additional Information Section -->
+                   <div>
+                    <h2>Additional Information Section</h2>
+                   <label>Why Should We Hire You?</label>
+                   <textarea cols="20" rows="2" placeholder="Enter the reason..."></textarea>
+                 </div>
+
+                 <!-- Availability Date -->
+                  <div>
+                    <h2>Availability Date</h2>
+                    <label>When Can You Start?</label>
+                    <input type="datetime-local" name="date" id="date">
+                  </div>
+               
+                  <!-- Declaration Section -->
+                  <div>
+                    <h3>Declaration Section</h3>
+                    <input type="checkbox">"I confirm that the information provided is accurate and complete."
+                  </div>
+
+                  <div>
+                    <input type="submit" value="Submit Application">
+                    <input type="reset" value="Reset Button">
+                  </div>
+               </form>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
